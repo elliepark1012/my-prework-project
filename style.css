@@ -1,3 +1,150 @@
 body {
-    background: blue;
+    text-align: center ;
+    font-family: 'Arial Narrow';
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+h2 {
+    font-size: 100px;
+    font-style: italic;
+}
+.Name {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Name.jpg');
+    background-position: center;
+    background-size: 500px;
+    width: 500px;
+    height: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Kita {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Work1.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Sport {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Work2.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.University {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Hufs.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Computer {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/ICT.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Business {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Business.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Rowing {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Rowing.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Camino {
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Santiago.jpg');
+    background-position: center;
+    background-size: 400px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Name p, .Kita p, .Sport p, .University p, .Computer p, .Business p, .Rowing p, .Camino p, .Business ul, .Computer ul {
+    opacity: 0;
+    transform: scale (0);
+    transition: 0.8s;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: italic;
+    
+}
+
+.Name:hover, .Kita:hover, .Sport:hover, .University:hover, .Computer:hover, .Business:hover, .Rowing:hover, .Camino:hover {
+    box-shadow: 0 0 0 500px rgba(0, 0, 0, 0.9) inset;
+}
+
+.Name:hover p, .Kita:hover p, .Sport:hover p, .University:hover p, .Computer:hover p, .Business:hover p, .Rowing:hover p, .Camino:hover p, .Business:hover ul, .Computer:hover ul {
+    opacity: 1;
 }
