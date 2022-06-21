@@ -20,7 +20,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Name.jpg');
+    background-image: url('./image/Name.jpg');
     background-position: center;
     background-size: 500px;
     width: 500px;
@@ -34,9 +34,9 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Work1.jpg');
+    background-image: url('../my-prework-project/image/Work1.jpg');
     background-position: center;
-    background-size: 400px;
+    background-size: 100% 100%;
     width: 400px;
     height: 400px;
     display: block;
@@ -48,7 +48,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Work2.jpg');
+    background-image: url('../my-prework-project/image/Work2.jpg');
     background-position: center;
     background-size: 400px;
     width: 400px;
@@ -62,7 +62,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Hufs.jpg');
+    background-image: url('../my-prework-project/image/Hufs.jpg');
     background-position: center;
     background-size: 400px;
     width: 400px;
@@ -76,7 +76,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/ICT.jpg');
+    background-image: url('../my-prework-project/image/ICT.jpg');
     background-position: center;
     background-size: 400px;
     width: 400px;
@@ -90,7 +90,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Business.jpg');
+    background-image: url('../my-prework-project/image/Business.jpg');
     background-position: center;
     background-size: 400px;
     width: 400px;
@@ -105,7 +105,7 @@ h2 {
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    background-image: url('../image/Rowing.jpg');
+    background-image: url('../my-prework-project/image/Rowing.jpg');
     background-position: center;
     background-size: 400px;
     width: 400px;
